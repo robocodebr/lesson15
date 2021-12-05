@@ -1,6 +1,3 @@
-
-
-
 let productsElement = document.getElementById("products");
 
 fetch("http://my-json-server.typicode.com/RobocodeSchool/marketplace/db")
