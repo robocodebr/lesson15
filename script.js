@@ -18,3 +18,4 @@ fetch("http://my-json-server.typicode.com/robocodebr/lesson14/db")
     textElement.innerHTML += data.products[0].product + "<br>"+data.products[0].price + "<br>"
     textElement.innerHTML += data.products[1].product + "<br>"+data.products[1].price + "<br>"
 })
+
