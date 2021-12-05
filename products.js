@@ -1,7 +1,9 @@
-let textElement = document.getElementById("products")
-fetch("http://my-json-server.typicode.com/robocodebr/lesson14/db")
+let productsElement = document.getElementById("products");
+
+fetch("http://my-json-server.typicode.com/RobocodeSchool/marketplace/db")
 .then(function(data){
     return data.json()
 })
-.then(function(data) {
+.then(function(data){
+    
 })
