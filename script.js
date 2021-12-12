@@ -6,6 +6,7 @@ fetch('http://my-json-server.typicode.com/robocodebr/lesson14/db')
     return data.json();
 })
 .then(function(data){
+    console.log(data)
     text_element.innerHTML += data.user[0].user + '<br>' + data.user[0].age + '<br>' + data.user[0].gander + '<br>';
     for(let i=0; i<data.products.length; i++){
         console.log(data.products[i])
