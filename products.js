@@ -21,10 +21,8 @@ function addCard(card) {
     <button type="button" class="buy">Buy</button>
     </div>`
     
-=======
-    }); 
->>>>>>> f6a97f8babf4c2b2125a32467ea8d568f8c667cf
-})
+
+    };
 
 function addCard(card) {
     return `<div class="card">
