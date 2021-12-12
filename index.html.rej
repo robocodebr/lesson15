@@ -1,0 +1,13 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -8,7 +8,8 @@
+     <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+-    <div id="products"></div>
+-    <script src="./products.js"></script>
++    <div id="text"></div>
++    
++    <script src="./script.js"></script>
+ </body>
+ </html>
+\ No newline at end of file
