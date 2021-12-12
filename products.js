@@ -21,4 +21,4 @@ function addCard(card) {
     <button type="button" class="buy">Buy</button>
     </div>`
     
-}
+})
