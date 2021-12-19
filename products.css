@@ -80,4 +80,10 @@
 header {
     display: flex;
     justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+#cart:hover {
+    background-color: #a7a7a7;
 }
