@@ -29,13 +29,17 @@ function buy(i) {
     if(localStorage.length == 0) {
         productsInCart = []
     } else {
-        console.log(productsInCart)
         productsInCart = JSON.parse(productsInCart);
     }
 
     productsInCart.push(product)
     localStorage.setItem("cart", JSON.stringify(productsInCart));
     console.log(localStorage.getItem("cart"))
+    cartMenu.innerHTML = `<div>
+    ${productsInCart.map(elem => `<p>${elem.title}|${elem.price}</p>`)}
+    <p>Total price: </p>
+    <button type="button">Buy All</button>
+</div>`
 }
 
 

@@ -97,7 +97,7 @@ header {
 
 #card-products {
     position: absolute;
-    bottom: -50px;
+    top: 80px;
     width: 250px;
     right: 0;
     padding: 10px;
