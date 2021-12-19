@@ -245,6 +245,35 @@ header {
     background-color: #a7a7a7;
 }
 
+#cart-container {
+    position: relative;
+}
+
+#card-products {
+    position: absolute;
+    bottom: -50px;
+    width: 250px;
+    right: 0;
+    padding: 10px;
+    border: 1px solid;
+    background-color: #fff;
+    border-radius: 10px;
+}
+#card-products:after {
+    content: "";
+    display: block;
+    background-color: #000;
+    position: absolute;
+    top: -6px;
+    right: 23px;
+    z-index: -1;
+    transform: rotate(45deg);
+    width: 20px;
+    height: 20px;
+}
+
+
+
 
 
 
