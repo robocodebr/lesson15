@@ -13,13 +13,18 @@ fetch('http://my-json-server.typicode.com/RobocodeSchool/marketplace/db')
             <p class="product_text"><span class="product_text_bold">Price: </span>${json.products[i].price}</p>
             <p class="product_text"><span class="product_text_bold">Description: </span>${json.products[i].description}</p>
             <a href="#" class="product_link">Seller profile</a>
-            <input type="submit" class="submit" value="Buy">
+            <input type="submit" class="submit" value="Buy" onclick='buy(${i})'>
         </div>
         `
     }
 })
 
-
+function buy(i) {
+    console.log(i)
+    let currectProduct = document.getElementsByClassName('products_item_container')[i]
+    let product = {}
+    
+}
 
 let cartBtn = document.getElementById("cart");
 let cartMenu = document.getElementById("card-products");
