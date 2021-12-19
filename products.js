@@ -25,3 +25,14 @@ fetch("http://my-json-server.typicode.com/RobocodeSchool/marketplace/db")
       div.innerHTML = "user with id"+id+" not exists"  
   }  
 })
+
+
+
+
+
+
+
+
+
+
+
