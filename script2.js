@@ -23,7 +23,24 @@ function buy(i) {
     console.log(i)
     let currectProduct = document.getElementsByClassName('products_item_container')[i]
     let product = {}
-    
+    product.title = currentProduct.children[0].innerHTML;
+    product.img = currentProduct.children[1].src;
+    product.price = currentProduct.children[2].childNodes[1].nodeValue;
+    let productsInCart = localStorage.getItem("cart");
+    if(localStorage.length == 0) {
+        productsInCart = []
+    } else {
+        productsInCart = JSON.parse(productsInCart);
+    }
+
+    productsInCart.push(product)
+    localStorage.setItem("cart", JSON.stringify(productsInCart));
+    console.log(localStorage.getItem("cart"))
+    cartMenu.innerHTML = `<div>
+    ${productsInCart.map(elem => `<p>${elem.title}|${elem.price}</p>`)}
+    <p>Total price: </p>
+    <button type="button">Buy All</button>
+</div>`
 }
 
 let cartBtn = document.getElementById("cart");
