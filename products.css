@@ -212,6 +212,25 @@
 
 
 
+=======
+#cart {
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#cart img {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+>>>>>>> 2f337ef77e5cbaa4444d3de2d68e4c0d0c0cedce
+
 
 
 
