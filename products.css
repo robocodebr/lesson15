@@ -70,11 +70,14 @@
     border: 1px solid #000;
     border-radius: 50%;
     overflow: hidden;
+    width: 70px;
+    height: 70px;
 }
 
 #cart img {
     width: 50px;
     height: 50px;
+    margin: 3px 0 0 -5px;
 }
 
 header {
@@ -87,3 +90,16 @@ header {
 #cart:hover {
     background-color: #a7a7a7;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
