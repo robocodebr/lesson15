@@ -25,7 +25,7 @@ fetch("http://my-json-server.typicode.com/RobocodeSchool/marketplace/db")
       div.innerHTML = "user with id"+id+" not exists"  
   }  
 })
-<<<<<<< HEAD
+
 .then(function(data){
     data.products.forEach(element => {
         productsElement.innerHTML += addCard(element);
@@ -56,5 +56,16 @@ function addCard(card) {
     <button type="button" class="buy">Buy</button>
 </div>`
 }
-=======
->>>>>>> a5292df39491385cf3109af0a11c4e2e68e48934
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> ab1399ed03ec45c4203c879d9d2ddcd78b07ed04
