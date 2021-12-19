@@ -19,9 +19,16 @@ fetch('http://my-json-server.typicode.com/RobocodeSchool/marketplace/db')
     }
 })
 
-let cartBtn = document.getElementById('card')
-let cartMenu = document.getElementById('card-products')
-cartBtn.onclick = function () {
-    cartMenu.classList.toggle('.hide')
-}
-document.addEventListener()
+
+
+let cartBtn = document.getElementById("cart");
+let cartMenu = document.getElementById("card-products");
+cartBtn.addEventListener('click',  function(){
+    cartMenu.classList.toggle("hide");
+});
+window.addEventListener('click', function(e) {
+    if(e.target.id != "cart" && e.target.parentElement.id != "cart"){
+       cartMenu.classList.add("hide");
+    }
+});
+
