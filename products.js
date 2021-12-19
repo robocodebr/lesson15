@@ -1,4 +1,3 @@
-
 function drawUser(user) {  
     return `  <h1>${user.name}</h1>  
     <img src="${user.photo_url}" alt="${user.name} ${user.sirname}">  
