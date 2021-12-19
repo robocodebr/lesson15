@@ -18,3 +18,10 @@ fetch('http://my-json-server.typicode.com/RobocodeSchool/marketplace/db')
         `
     }
 })
+
+let cartBtn = document.getElementById('card')
+let cartMenu = document.getElementById('card-products')
+cartBtn.onclick = function () {
+    cartMenu.classList.toggle('.hide')
+}
+document.addEventListener()
