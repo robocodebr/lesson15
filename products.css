@@ -64,3 +64,34 @@
     width: 100%;
     border: none;
 }
+
+#cart {
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#cart img {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
