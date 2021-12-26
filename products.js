@@ -25,7 +25,7 @@ function buy(i) {
 	let product = {};
 	product.title = currentProduct.children[0].innerHTML;
 	product.img = currentProduct.children[1].src;
-	product.price = currentProduct.children[2].childNodes[1].nodeValue;
+  	product.price = currentProduct.children[2].childNodes[1].nodeValue;
 	let productsInCart = localStorage.getItem('cart');
 	if (localStorage.length == 0) {
 		productsInCart = [];
