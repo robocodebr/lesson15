@@ -11,30 +11,20 @@
     </head>
     <body>
         <div class="container">
-
-            <div class="button_container">
-
+            <header>
                 <h2 class="main_title">Robocode Marketplace</h2>
-
-                <button class="button_with_clipart">
-                    <img src="img/png-clipart-computer-icons-shopping-cart-shopping-cart-cdr-angle.png" alt="" class="img_in_button">
-                </button>
-
-                <div class="form_for_button invisible" data-status="invisible">
-                    <div class="form_container">
-                        <p class="empty_card invisible">Card is empty</p>
-
-                        <div class="total_price">Total price: <span class="price_value"></span></div>
+                <div id="cart-container">
+                    <button type="button" id="cart">
+                        <img src="./img/istockphoto-1206806317-612x612.png" alt="cart">
+                    </button>
+                    <div id="card-products" class="hide">
+                        Card is empty
                     </div>
-                    <div class="form_strelka"></div>
                 </div>
-
-            </div>
-
+            </header>
             <div class="products_container">
-
             </div>
         </div>
-        <script src="./script2.js"></script>
+        <script src="./products.js"></script>
     </body>
 </html>

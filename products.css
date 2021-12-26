@@ -65,92 +65,88 @@
     border: none;
 }
 
-.button_with_clipart{
-    width: 30px;
-    height: 30px;
-    border-radius: 90%;
+#cart {
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 50%;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    cursor: pointer;
+    width: 70px;
+    height: 70px;
 }
 
-.button_with_clipart:hover{
-    border: 2px solid grey;
+#cart img {
+    width: 50px;
+    height: 50px;
+    margin: 3px 0 0 -5px;
 }
 
-.img_in_button{
-    width: 60%;
-    height: 60%;
-}
-
-.button_container{
-    width: 100%;
-    height: auto;
+header {
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    padding: 20px 0;
+    align-items: center;
+}
+
+#cart:hover {
+    background-color: #a7a7a7;
+}
+
+#cart-container {
     position: relative;
 }
 
-.form_container{
-    width: 200px;
-    min-height: 40px;
-    height: auto;
-    border: 2px solid black;
-    background: #fff;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.form_for_button{
+#card-products {
     position: absolute;
-    top: 124%;
-    left: 82%;
+    top: 80px;
+    width: 250px;
+    right: 0;
+    padding: 10px;
+    border: 1px solid;
+    background-color: #fff;
+    border-radius: 10px;
 }
-.form_strelka{
-    width: 30px;
-    height: 30px;
-    background-color: black;
+#card-products:after {
+    content: "";
+    display: block;
+    background-color: #000;
     position: absolute;
     top: -6px;
-    left: 82%;
-    transform: rotate(0.125turn);
+    right: 23px;
     z-index: -1;
+    transform: rotate(45deg);
+    width: 20px;
+    height: 20px;
 }
 
-.empty_card{
-    font-size: 20px;
-}
-
-.invisible{
+.hide {
     display: none;
 }
 
-.form_container_card{
-    width: 100%;
-    height: 45px;
+#card-products p {
     display: flex;
     align-items: center;
-    /* border: 1px solid green; */
-    box-shadow: 0px 1px 2px 1px grey;
-    margin-bottom: 7px;
+    border-bottom: 1px solid #818181;
+}
+#card-products p:last-of-type{
+    border-bottom: none;
+}
+#card-products img {
+    margin-right: 20px;
 }
 
-.form_container_card:first-child{
-    margin-top: 10px;
+#card-products button{
+    padding: 5px 30px;
+    border-radius: 20px;
+    background-color: #a7a7a7;
+    border: 1px solid;
+    color: #fff;
+    margin: 10px 0 20px; 
 }
 
-.card_img{
-    width: 40px;
-    height: 40px;
-}
 
-.card_name{
-    padding-left: 18px;
-}
+
+
+
+
+
+
