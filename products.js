@@ -1,7 +1,11 @@
 let products_container = document.querySelector('.products_container');
 
 fetch('http://my-json-server.typicode.com/RobocodeSchool/marketplace/db', {
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 375f196decb42df0efcdb2f74160e70ae02993b2
 })
 	.then(function(data) {
 		return data.json();
