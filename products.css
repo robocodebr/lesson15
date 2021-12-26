@@ -121,10 +121,26 @@ header {
 .hide {
     display: none;
 }
+#card-products p {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #818181;
+}
+#card-products p:last-of-type{
+    border-bottom: none;
+}
+#card-products img {
+    margin-right: 20px;
+}
 
-
-
-
+#card-products button{
+    padding: 5px 30px;
+    border-radius: 20px;
+    background-color: #a7a7a7;
+    border: 1px solid;
+    color: #fff;
+    margin: 10px 0 20px; 
+}
 
 
 
