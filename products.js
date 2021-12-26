@@ -74,10 +74,6 @@ function drawCart() {
     <button type="button" onclick="buyAll()">Buy All</button>
 </div>`;
 }
-function buyAll() { 
-    localStorage.clear();
-    cartMenu.innerHTML = 'Card is empty';
-}
 let cartBtn = document.getElementById('cart');
 let cartMenu = document.getElementById('card-products');
 cartBtn.addEventListener('click', function() {
