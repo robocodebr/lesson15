@@ -1,6 +1,8 @@
 let products_container = document.querySelector('.products_container');
 
-fetch('http://my-json-server.typicode.com/RobocodeSchool/marketplace/db')
+fetch('http://my-json-server.typicode.com/RobocodeSchool/marketplace/db', {
+    
+})
 	.then(function(data) {
 		return data.json();
 	})
@@ -54,6 +56,7 @@ function drawCart() {
         }
     })
     let productItems = [];
+    console.log(productsTitles)
     for (let title in productsTitles) {
         console.log(title)
         let currentItem = productsInCart.find(elem => elem.title == title);
