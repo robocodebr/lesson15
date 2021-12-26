@@ -143,6 +143,39 @@ header {
     margin: 10px 0 20px; 
 }
 
+.purchase{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.container_products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.border_product{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start ;
+}
+
+.product_img{
+    width: 30%;
+    height: 30%;
+}
+
 
 
 
