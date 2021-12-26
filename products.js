@@ -1,6 +1,8 @@
 let products_container = document.querySelector('.products_container');
 
-fetch('http://my-json-server.typicode.com/RobocodeSchool/marketplace/db')
+fetch('http://my-json-server.typicode.com/RobocodeSchool/marketplace/db', {
+
+})
 	.then(function(data) {
 		return data.json();
 	})
@@ -74,7 +76,6 @@ function drawCart() {
     <button type="button" onclick="buyAll()">Buy All</button>
 </div>`;
 }
-
 
 let cartBtn = document.getElementById('cart');
 let cartMenu = document.getElementById('card-products');
